@@ -42,7 +42,7 @@ Created by Wolfram Workbench
 
 <div class="section">
 
-<form action="Plot.jsp" method="post">
+<form action="plottest.jsp" method="post">
 <div>
 Enter a function:
 <input type="text" name="fun" size="24" value="${msp:evaluate('MSPValue[$$fun,  "Sin[x]^2"]')}"/>
