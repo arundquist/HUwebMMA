@@ -1,6 +1,6 @@
-<%@ taglib uri="http://www.wolfram.com/msp" prefix="msp" %>    standard jsp headers
+<%@ taglib uri="http://www.wolfram.com/msp" prefix="msp" %>
 
-<html>                                                         standard html tags
+<html>
 
 <head>
 <title>Hello World</title>
@@ -12,12 +12,12 @@
 
 <h4>Date[]</h4>
 <msp:evaluate>
-  Date::usage                                                  evaluated by Mathematica
+  Date::usage
 </msp:evaluate>
 
 <p>Its current value is:</p>
 <msp:evaluate>
-  Date[]                                                       evaluated by Mathematica
+  Date[]
 </msp:evaluate>
 
 This example shows a basic use of webMathematica.
