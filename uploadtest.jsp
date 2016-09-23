@@ -49,7 +49,7 @@ Created by Wolfram Workbench
 <div class="section">
 <msp:evaluate>
     file = "FileName" /. MSPGetUploadFile[];
-    img = Flatten[N[Import[file]]];
+    img = Import[file];
 </msp:evaluate>
 
 <msp:evaluate>
