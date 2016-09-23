@@ -43,7 +43,7 @@ Created by Wolfram Workbench
 </div>
 
 <div class="section">
-<a href="Upload.html">Load another data file?</a>
+<a href="uploadtest.html">Load another data file?</a>
 </div>
 
 <div class="section">
@@ -59,11 +59,7 @@ Created by Wolfram Workbench
 </msp:evaluate>
 </div>
 
-<p class="description">
-This example uses the MSP Taglib to accept uploaded data,
-compute a moving average and then plot the data and the
-smoothed data.
-</p>
+
 
 </div>
 
