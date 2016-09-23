@@ -54,8 +54,8 @@ Created by Wolfram Workbench
 
 <msp:evaluate>
   If[StringQ[file],
-  MSPShow[GraphicsRow[
-    ImageMultiply[img, #] & /@ DominantColors[img, 5, "CoverageImage"]]]
+  MSPShow[GraphicsRow[ImageMultiply[img, #] & /@ DominantColors[img, 5, "CoverageImage"]]]
+    ]
 </msp:evaluate>
 </div>
 
