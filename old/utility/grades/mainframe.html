@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p><img src="../../webm-white-tiny.gif" width="170" height="23"> <a href="../../../webMMA" target="_parent">back 
+  to Rundquist's webMMA list</a></p>
+<p>&nbsp;</p>
+<form action="http://euclid.hamline.edu:8080/webMathematica/MSP/arundquist/grading2/initdatafile.msp" method="post" name="form1" target="mainFrame">
+  <p> Paste text roster from Piperline here:</p>
+  <p> 
+    <textarea name="mainstring" rows="10" id="mainstring"></textarea>
+  </p>
+  <p>class folder name:</p>
+  <p> 
+    <input name="folder" type="text" id="folder" value="phys1140">
+  </p>
+  <p>create new alg file? 
+    <input name="newalg" type="checkbox" id="newalg" value="True">
+  </p>
+  <p>new alg syntax:</p>
+  <p> 
+    <textarea name="alglist" id="alglist">{{Summary, HW}, {HW, Apply[Plus,HWstudent]/Apply[Plus,HWtotals] 100}}</textarea>
+  </p>
+  <p>First algorithm type:</p>
+  <p> 
+    <input name="algtype" type="text" id="algtype" value="HW" size="10">
+  </p>
+  <p>First algorithm:</p>
+  <p>
+    <textarea name="firstalg" id="firstalg">Apply[Plus,HWstudent]/Apply[Plus,HWtotals] 100</textarea>
+  </p>
+  <p>password: </p>
+  <p> 
+    <input name="pass" type="password" id="pass">
+    <input name="hiddenField" type="hidden" id="hiddenField" value="1">
+  </p>
+  <p>
+    <input type="submit" name="Submit" value="Submit">
+  </p>
+  <p>&nbsp;</p>
+  <p>&nbsp; </p>
+  </form>
+<p>Right now this web page will overwrite or create a file in the class folder 
+  named whatever you enter for the class folder name. You still need to create 
+  a physicseuclid.pl file if this if the first time you've taught a class with 
+  this. If you create a new file with this you'll have to change the permissions 
+  to 755 before it'll work.</p>
+</body>
+</html>

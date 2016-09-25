@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p><img src="../../webm-white-tiny.gif" width="170" height="23"> <a href="../../" target="_parent">back 
+  to Rundquist's webMMA list</a></p>
+<p>Use this web page to do nonlinear curve fitting. The output in the frame to 
+  the right will be a curve with the data and error bars plotted against the best 
+  fit, the fit equation, and the fit parameters along with the errors on those 
+  parameters. Use the form below to enter your data. The data points need to be 
+  separated by white space (space, tab, or return or some combination). Note that 
+  you can cut and paste columns from Excel.</p>
+<form action="http://euclid2.hamline.edu:8080/webMathematica/MSP/arundquist/utility/curvefit.msp" method="post" name="form1" target="mainFrame">
+  <p> x's</p>
+  <p> 
+    <textarea name="xd" rows="10" id="xd">0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+2.
+2.1
+2.2
+2.3
+2.4
+2.5
+2.6
+2.7
+2.8
+2.9
+3.
+3.1
+3.2
+3.3
+3.4
+3.5
+3.6
+3.7
+3.8
+3.9
+4.
+4.1
+4.2
+4.3
+4.4
+4.5
+4.6
+4.7
+4.8
+4.9
+5.
+5.1
+5.2
+5.3
+5.4
+5.5
+5.6
+5.7
+5.8
+5.9
+6.</textarea>
+  </p>
+  <p>y's</p>
+  <p> 
+    <textarea name="yd" rows="10" id="yd">0.0612567
+0.0606316
+-0.0359233
+0.0394532
+-0.109762
+-0.0302831
+-0.302219
+-0.32437
+-0.442687
+-0.444084
+-0.667454
+-0.720181
+-0.736067
+-0.74851
+-0.852357
+-0.964975
+-0.874881
+-0.758888
+-0.750732
+-0.645077
+-0.70658
+-0.63187
+-0.628777
+-0.539363
+-0.393959
+-0.311204
+-0.238861
+-0.0356701
+-0.0829037
+0.0513049
+0.00420253
+0.0716611
+0.224862
+0.189518
+0.19886
+0.163117
+-0.0561444
+0.056117
+-0.166965
+-0.143815
+-0.221592
+-0.457013
+-0.38315
+-0.375078
+-0.517913
+-0.425544
+-0.428045
+-0.314069
+-0.394626
+-0.1715
+-0.033576
+0.0829096
+0.492409
+0.506237
+0.844223
+1.2714
+1.37952
+1.75405
+2.13295
+2.3738
+2.96089</textarea>
+  </p>
+  <p>y errors: If all y's have the same error, enter it once and check the box</p>
+  <p>
+    <input name="commonerror" type="checkbox" id="commonerror" value="checkbox" checked>
+    if checked, then all numbers have the same errors</p>
+  <p> 
+    <textarea name="ye" rows="10" id="ye">0.1</textarea>
+  </p>
+  <p>equation:</p>
+  <p>y = 
+    <input name="eqn" type="text" id="eqn" value="-a Sin[b x]^2+x^7/c+d">
+  </p>
+  <p>Note that Mathematica will determine the fit parameter names based on how 
+    you input them in the above equation. </p>
+  <p>
+    <input type="submit" name="Submit" value="Submit">
+  </p>
+  <p>If you have good starting points for the variables, enter them below with 
+    the following syntax: {param1, start1},{param2, start2} . . . Note that you 
+    don't have to specify the start for all the variables. If you leave it blank 
+    (or don't list one of the variables), Mathematica will assume start = 1.0 
+    for all variables.</p>
+  <p> 
+    <input name="specific" type="text" id="specific">
+  </p>
+  </form>
+<p>&nbsp; </p>
+</body>
+</html>

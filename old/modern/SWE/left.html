@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<form action="http://euclid.hamline.edu:8080/webMathematica/MSP/arundquist/modern/SWE.msp" method="post" name="form1" target="mainFrame">
+  <p> 
+    <input name="imageField" type="image" src="../../webm-white-tiny.gif" width="170" height="23" border="0">
+  </p>
+  <p>This page numerically solves the Time independent Schroedinger Wave Equation 
+    in 1D (assuming m and hbar =1).</p>
+  <p>V[x] </p>
+  <p> 
+    <input name="V" type="text" id="V" value="If[x&lt;8, 0, 10]">
+  </p>
+  <p>energyrange for movie</p>
+  <p> 
+    <input name="energyrange" type="text" id="energyrange" value="{10, 15}">
+  </p>
+  <p>energy:</p>
+  <p>
+    <input name="energy" type="text" id="energy" value="1">
+  </p>
+  <p>range for plot:</p>
+  <p> 
+    <input name="range" type="text" id="range" value="{0, 10}">
+  </p>
+  <p>y[0]</p>
+  <p> 
+    <input name="yinit" type="text" id="yinit" value="1">
+  </p>
+  <p>slope[0]</p>
+  <p> 
+    <input name="slopeinit" type="text" id="slopeinit" value="0">
+  </p>
+  <p>
+    <input type="submit" name="Submit" value="Submit">
+  </p>
+</form>
+<p>&nbsp;</p></body>
+</html>

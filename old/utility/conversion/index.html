@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Unit Conversion</title>
+</head>
+<body>
+<h1>Unit Conversion <img src="../../webm-white-tiny.gif" width="170" height="23"></h1>
+<p><a href="../../" target="_parent">Back to Andy Rundquist's webmathematica files</a></p>
+<form action="http://euclid.hamline.edu:8080/webMathematica/MSP/arundquist/frametest/convert.msp" method="post" target="convert">
+  enter an expression and a unit to convert it to. <br/>
+Expression:
+<br>  <input type="text" name="expr" align="left" size="60"
+value="k e^2/BohrRadius">
+<br/>
+<br>Final Unit:
+  <input type="text" name="unit" align="left" size="40"
+value="eV">
+
+<br/>
+  <input type="submit" name="btnSubmit" value="Evaluate">
+</form>
+<p>&nbsp;<iframe src="http://euclid.hamline.edu:8080/webMathematica/MSP/arundquist/frametest/convert.msp" name="convert" width="400" marginwidth="0" height="100" marginheight="0" scrolling="no" frameborder="1"></iframe></p>
+<p>Note that on the initial load, the result is $Failed. simply press the evaluate 
+  button. </p>
+<p> Below are the physical constants available to this page:</p>
+<table width="100%" border="1">
+  <tr> 
+    <td>Below are the physical constants available to this page:</td>
+    <td>Below are the nicknames available:</td>
+  </tr>
+  <tr>
+    <td>AccelerationDueToGravity = (9.80665*Meter)/Second^2<br>
+      AgeOfUniverse = 4.7*^17*Second<br>
+      AvogadroConstant = 6.02214199*^23/Mole<br>
+      BohrRadius = 5.291772083*^-11*Meter<br>
+      BoltzmannConstant = (1.3806503*^-23*Joule)/Kelvin<br>
+      ClassicalElectronRadius = 2.817940285*^-15*Meter<br>
+      CosmicBackgroundTemperature = 2.726*Kelvin<br>
+      DeuteronMagneticMoment = (4.33073457*^-27*Joule)/Tesla<br>
+      DeuteronMass = 3.34358309*^-27*Kilogram<br>
+      EarthMass = 5.9742*^24*Kilogram<br>
+      EarthRadius = 6378140*Meter<br>
+      ElectronCharge = 1.602176462*^-19*Coulomb<br>
+      ElectronComptonWavelength = 2.426310215*^-12*Meter<br>
+      ElectronGFactor = -2.0023193043737<br>
+      ElectronMagneticMoment = (-9.28476362*^-24*Joule)/Tesla<br>
+      ElectronMass = 9.10938188*^-31*Kilogram<br>
+      FaradayConstant = (96485.3415*Coulomb)/Mole<br>
+      FineStructureConstant = 0.007297352533<br>
+      GalacticUnit = 2.6*^20*Meter<br>
+      GravitationalConstant = (6.673*^-11*Meter^2*Newton)/Kilogram^2<br>
+      HubbleConstant = 3.2*^-18/Second<br>
+      IcePoint = 273.15*Kelvin<br>
+      MagneticFluxQuantum = 2.067833636*^-15*Weber<br>
+      MolarGasConstant = (8.314472*Joule)/(Kelvin*Mole)<br>
+      MolarVolume = (0.022413996*Meter^3)/Mole<br>
+      MuonGFactor = -2.002331832<br>
+      MuonMagneticMoment = (-4.49044813*^-26*Joule)/Tesla<br>
+      MuonMass = 1.88353109*^-28*Kilogram<br>
+      NeutronComptonWavelength = 1.319590898*^-15*Meter<br>
+      NeutronMagneticMoment = (-9.662364*^-27*Joule)/Tesla<br>
+      NeutronMass = 1.67492716*^-27*Kilogram<br>
+      PlanckConstant = 6.62606876*^-34*Joule*Second<br>
+      PlanckConstantReduced = 1.0545715964207855*^-34*Joule*Second<br>
+      PlanckMass = 2.1767*^-8*Kilogram<br>
+      ProtonComptonWavelength = 1.321409847*^-15*Meter<br>
+      ProtonMagneticMoment = (1.410606633*^-26*Joule)/Tesla<br>
+      ProtonMass = 1.67262158*^-27*Kilogram<br>
+      QuantizedHallConductance = (0.00003874045848*Ampere)/Volt<br>
+      RydbergConstant = 1.0973731568549*^7/Meter<br>
+      SackurTetrodeConstant = -1.1517048<br>
+      SolarConstant = (1373.*Watt)/Meter^2<br>
+      SolarLuminosity = 3.86*^26*Watt<br>
+      SolarRadius = 6.9599*^8*Meter<br>
+      SolarSchwarzschildRadius = 2953.25008*Meter<br>
+      SpeedOfLight = (299792458*Meter)/Second<br>
+      SpeedOfSound = (340.29205*Meter)/Second<br>
+      StefanConstant = (5.6704*^-8*Watt)/(Kelvin^4*Meter^2)<br>
+      ThomsonCrossSection = 6.65245854*^-29*Meter^2<br>
+      VacuumPermeability = (Pi*Second*Volt)/(2500000*Ampere*Meter)<br>
+      VacuumPermittivity = (8.854187817*^-12*Ampere*Second)/(Meter*Volt)<br>
+      WeakMixingAngle = 0.2224</td>
+    <td valign="top"><p>c=SpeedOfLight<br>
+        e = ElectronCharge <br>
+        k=1/(4 Pi VacuumPermittivity)<br>
+        h=PlanckConstant<br>
+        hbar=PlanckConstantReduced<br>
+        m=Meter<br>
+        s=Second<br>
+        kg=Kilogram<br>
+        fs = Femto Second<br>
+        cm = Centimeter<br>
+        G = GravitationalConstant<br>
+        AndyMass=215 Pound;<br>
+        hr=Hour<br>
+        mi = Mile<br>
+        in = Inch<br>
+        km = Kilo Meter<br>
+        mm = Milli Meter<br>
+        eV = ElectronVolt<br>
+        J = Joule<br>
+        K = Kelvin<br>
+        F = Fahrenheit<br>
+        C = Celsius</p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
