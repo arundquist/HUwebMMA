@@ -41,7 +41,7 @@ enter a, b, c, and d for your matrix
 <div class="section">
 
 <msp:evaluate>
-    MSPBlock[{$$a, $$b, $$c, $$c},
+    MSPBlock[{$$a, $$b, $$c, $$d},
         MSPShow[StreamPlot[{{$$a,$$b},{$$c,$$d}}.{x,y},{x,-2,2},{y,-2,2}]]]
 </msp:evaluate>
 
