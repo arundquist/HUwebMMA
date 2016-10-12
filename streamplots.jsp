@@ -5,7 +5,7 @@
 
 <html>
 <head>
-<title>Plot Example</title>
+<title>Stream Plots or Phase Plane Plots</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 <link rel="stylesheet" type="text/css" href="../Resources/CSS/webMathematica.css"/>
 <script type="text/javascript" src="../Resources/JavaScript/webMathematica.js"></script>
