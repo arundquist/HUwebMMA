@@ -9,6 +9,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 <link rel="stylesheet" type="text/css" href="../Resources/CSS/webMathematica.css"/>
 <script type="text/javascript" src="../Resources/JavaScript/webMathematica.js"></script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 </head>
 
 <body>
@@ -45,6 +48,12 @@ enter a, b, c, and d for your matrix<br/>
         MSPShow[StreamPlot[{{$$a,$$b},{$$c,$$d}}.{x,y},{x,-2,2},{y,-2,2}]]]
 </msp:evaluate>
 
+</div>
+
+<div class='section'>
+  This shows a phase plane plot for the following differential equations:
+  $$y_1'(t)=a y_1(t)+b y_2(t)$$
+  $$y_2'(t)=c y_1(t)+d y_2(t)$$
 </div>
 
 
