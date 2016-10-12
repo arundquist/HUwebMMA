@@ -23,7 +23,7 @@
 
 <form action="streamplots.jsp" method="post">
 <div>
-enter a, b, c, and d for your matrix
+enter a, b, c, and d for your matrix<br/>
 <input type="text" name="a" size="2" value="${msp:evaluate('MSPValue[$$a,  "0"]')}"/>
 <input type="text" name="b" size="2" value="${msp:evaluate('MSPValue[$$b,  "1"]')}"/>
 <br/>
