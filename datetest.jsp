@@ -17,7 +17,7 @@
 
 <p>Its current value is:</p>
 <msp:evaluate>
-  Date[]
+  {RandomInteger[{1,12}], RandomInteger[{1,3}]}
 </msp:evaluate>
 
 This example shows a basic use of webMathematica.
