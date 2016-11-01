@@ -24,7 +24,7 @@
 
 <div class="section">
 
-<form action="streamplots.jsp" method="post">
+<form action="lagrangian.jsp" method="post">
 <div>
 enter the locations of the ball at t=0.2, 0.4, 0.6, and 0.8 seconds.<br/>
 <input type="text" name="a" size="2" value="${msp:evaluate('MSPValue[$$a,  "0"]')}"/>
@@ -47,10 +47,9 @@ enter the locations of the ball at t=0.2, 0.4, 0.6, and 0.8 seconds.<br/>
 pts={$$a, $$b, $$c, $$d};
 coords = Join[{{0, 0}},
 Table[{i/(Length[pts] + 1), pts[[i]]}, {i, Length[pts]}], {{1, 0}}];
-(*int = Interpolation[coords, Method -> "Spline",
+int = Interpolation[coords, Method -> "Spline",
 InterpolationOrder -> 1];
-integral = NIntegrate[1/2 int'[t]^2 - 9.8 int[t], {t, 0, 1}]*)
-5+3]
+integral = NIntegrate[1/2 int'[t]^2 - 9.8 int[t], {t, 0, 1}]]
 </msp:evaluate>
 
 </div>
