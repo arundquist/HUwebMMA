@@ -49,7 +49,7 @@ coords = Join[{{0, 0}},
 Table[{i/(Length[pts] + 1), pts[[i]]}, {i, Length[pts]}], {{1, 0}}];
 int = Interpolation[coords, Method -> "Spline",
 InterpolationOrder -> 1];
-integral = NIntegrate[1/2 int'[t]^2 - 9.8 int[t], {t, 0, 1}]
+integral = NIntegrate[1/2 int'[t]^2 - 9.8 int[t], {t, 0, 1}]]
 </msp:evaluate>
 
 </div>
