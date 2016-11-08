@@ -58,8 +58,15 @@ Table[{i/(Length[pts] + 1), pts[[i]]}, {i, Length[pts]}], {{1, 0}}];
 int = Interpolation[coords, Method -> "Spline",
 InterpolationOrder -> $$smooth];
 integral = NIntegrate[1/2 int'[t]^2 - 9.8 int[t], {t, 0, 1}];
+frames = Table[
+   Graphics[{PointSize[0.05], Red, Point[{0, int[t]}], Blue,
+     InfiniteLine[{0, 0}, {1, 0}], Black,
+     Text[integral, {-0.5, 0.5}]}, PlotRange -> 1.5], {t, 0, 1, .02}];
 MSPShow[Plot[int[t], {t, 0, 1},
  Epilog -> {PointSize -> 0.05, Red, Point /@ coords}]]]
+</msp:evaluate>
+<msp:evaluate>
+MSPShowAnimation[frames]
 </msp:evaluate>
 
 </div>
