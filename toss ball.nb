@@ -10,16 +10,19 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     36453,        849]
-NotebookOptionsPosition[     35639,        816]
-NotebookOutlinePosition[     35986,        831]
-CellTagsIndexPosition[     35943,        828]
+NotebookDataLength[     42964,        982]
+NotebookOptionsPosition[     42074,        947]
+NotebookOutlinePosition[     42421,        962]
+CellTagsIndexPosition[     42378,        959]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell["url: http://bit.ly/2eajQDL", "Text",
+ CellChangeTimes->{{3.687008681660139*^9, 3.68700868381326*^9}}],
 
 Cell[CellGroupData[{
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{
@@ -30,18 +33,17 @@ Cell[BoxData[{
        RowBox[{
         RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
       RowBox[{"{", "4", "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{
-    RowBox[{"pts", "=", 
-     RowBox[{"{", 
-      RowBox[{
-      "0.784`", ",", "1.176`", ",", "1.1760000000000002`", ",", 
-       "0.7839999999999994`"}], "}"}]}], ";"}], 
-   "*)"}]}], "\[IndentingNewLine]", 
+  RowBox[{"(*", ";", "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"pts", "=", 
    RowBox[{"{", 
-    RowBox[{"0", ",", "0", ",", "1", ",", "0"}], "}"}]}], ";"}], "\n", 
+    RowBox[{".25", ",", ".25", ",", ".25", ",", ".25"}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"pts", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "0.784`", ",", "1.176`", ",", "1.1760000000000002`", ",", 
+     "0.7839999999999994`"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"coords", "=", 
    RowBox[{"Join", "[", 
@@ -69,7 +71,7 @@ Cell[BoxData[{
    RowBox[{"Interpolation", "[", 
     RowBox[{"coords", ",", 
      RowBox[{"Method", "\[Rule]", "\"\<Spline\>\""}], ",", 
-     RowBox[{"InterpolationOrder", "\[Rule]", "1"}]}], "]"}]}], ";"}], "\n", 
+     RowBox[{"InterpolationOrder", "\[Rule]", "3"}]}], "]"}]}], ";"}], "\n", 
  RowBox[{
   RowBox[{"integral", "=", 
    RowBox[{"NIntegrate", "[", 
@@ -124,67 +126,114 @@ Cell[BoxData[{
       RowBox[{"Point", "/@", "coords"}]}], "}"}]}]}], "]"}], "\n", 
  RowBox[{"ListAnimate", "[", "frames", "]"}]}], "Input",
  CellChangeTimes->{{3.6869964118059235`*^9, 3.686996431211021*^9}, {
-  3.6869966084591885`*^9, 3.686996645039153*^9}, {3.686996681199094*^9, 
-  3.6869967155787516`*^9}, {3.6869968658839474`*^9, 3.6869968672429323`*^9}, {
-  3.686997121868619*^9, 3.686997148899941*^9}, {3.686997226595355*^9, 
-  3.686997229416881*^9}, {3.686997564475171*^9, 3.686997691500241*^9}, {
-  3.6869980663451643`*^9, 3.6869980923939357`*^9}, {3.6869981296814756`*^9, 
-  3.6869981316218643`*^9}}],
+   3.6869966084591885`*^9, 3.686996645039153*^9}, {3.686996681199094*^9, 
+   3.6869967155787516`*^9}, {3.6869968658839474`*^9, 
+   3.6869968672429323`*^9}, {3.686997121868619*^9, 3.686997148899941*^9}, {
+   3.686997226595355*^9, 3.686997229416881*^9}, {3.686997564475171*^9, 
+   3.686997691500241*^9}, {3.6869980663451643`*^9, 3.6869980923939357`*^9}, {
+   3.6869981296814756`*^9, 3.6869981316218643`*^9}, 3.687033945646143*^9, 
+   3.687034600104556*^9, {3.687034830618642*^9, 3.687034854234416*^9}, {
+   3.6870349819435377`*^9, 3.687034988581275*^9}, {3.687035179960146*^9, 
+   3.687035221493967*^9}, {3.687035298887938*^9, 3.6870353003579917`*^9}, {
+   3.68703538347761*^9, 3.687035412576585*^9}, {3.6870355122740126`*^9, 
+   3.6870355187719135`*^9}, {3.6870356373226905`*^9, 3.687035640391365*^9}, {
+   3.6870356944344807`*^9, 3.687035723096162*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {}, 
     {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
      1.], LineBox[CompressedData["
-1:eJxF1nk01N0fB3BRTyXkqSilRTxFpQgtWj6UlNBCKEkq6hEpa02ypVFZx54o
-arLmQfSUimbslH2dmTTMfKkZzHzxGH5k+c1zzu/3vfece+55nXvP+7zP/ede
-lcs3LZwkJSQk3ovnv+txJ14LnW91UOJ/42ee9eUeJV34vxWXdEQWKRkR3r53
-RfozpTOE9Zt1CmKUHAnTkyv0IpS8CAcHhd0JVXpA2NELV3qsFEd4UZzJi+GR
-V4TfN+88enRdPuGzwd2sirC3hG++8dR8MvaB8Cils3bePBrh2rJqWtP+csLO
-JBPZc0OVhMsW75zLvVFDOINaObv6jy+EDRRLX1rm1RPWrOkurt7SRLjdwFKY
-LWwm7Crt0tqh1Ur4K8OmVC6yjbCl8VlOX1874V1pYTZpap2Ee2dj2/8M6CLc
-b9JEVaxgEFYL2xwVXYvsWB9wV6YRmXtC67QkE5ltGT0rECIzLlieq1rNJPzF
-vUvOywN5cdGOKeFt5GNjD/ud/ZBrfPaUXHyE/FsxJZMVgWw8yYuxikUm6xv6
-Nz9BrvRNcjZ9zoR5rdfnlpJsQKp05Ew1lQlBIWft2m86w6FZEwPD7H/3/ewo
-0Z5AD5xS3P2WCWW3KXZuLwOhlHy+cuMXJnDjdT58tIqE6eqi/GdNTHixfTvP
-mEOB/Ytkkld1iB1T7lmQGAMfQ0vc5XrFebaDocHzE+Bd1Nr1UyJxHm//Bw12
-ChQk9ZBaVFjgLjUs/elYOrhqKLN2bmZBy52rK0bXZ4D6h7P6cdtYoC3sXqsx
-kQGpjJYp690sqGPUaSWmZ0HkykrfbjMWqORRrT0lc+FGfJbfz9ss8Mvd2qJg
-/wa2RLsHzTSwwNCmR7lxZTGkP5J6rHH3G9y0VrVNrSoH0RXbgaufuoHy8+Hm
-BRZNsMQoxOLNSjbsOpOa4uPTCffk+2U4dj3gYkEycGruBpnPWyW6zHth/zuW
-hA6ZAwd8Ts5UTPWC9smI0bb+Pkh5FU5VTeGAzG6adqEMD+ytdBsWm3KhM2eB
-pPbtQXBYY55WbM6F3kdBKskPBuESx8nz2iku9F+dMVgQMwiONxKVqqy4MLZR
-FMDMHQRn8pRToAMXZJP7ZoK4g+D1N3123JsLRmEVk63mQxCqYK7Vl8aFQpeg
-ES81AYR/c5KKpXKhxGRGvkdbABEv/DsNM7hQtpmkZQICoGgW3Et9zYVm7NbN
-tbYCiD+yvM72HRf45x0EVVECSPNmXmr5yoUNZsBX/CWAvzucYj+PcyF020xv
-cYsQKPNUtWGSCy0L80X72EK4rtnbSPvFheWYgzRtQAjryLbSZRIYJCZV6lRJ
-4RCiezKoQhqD1N/CQ1r0cHBwkFlvJIsBh3Mg+cwhHPTD60oql2KgWornd53A
-QYgd/k/VCgwyPS2Z36/hYB2752btOgzye1dvG0jCQYsmkjFRwWDkU73BjQwc
-pAcLc+pUMdBJ9LcaLsTh8yHNH1/UMXhvzvUf/4rDE7eBYNOtGEyqx8WSGDh4
-PM1UqdfEYN9846zpPhzMqh1pZloY+PVMlASM4LBpVOVCw04MaB+zWyRncZBY
-1zNlrofBnPMrpbsiHFgmKU8ad2NQGjk6f4KHQ+QLxfam/RjsZUR+G27CYeLU
-EtNWYwy2udQ86nuGQ+u9Wp6FCQb9UQpel6JxyM0ih7SZYkB9e+Ui+4H4PiQk
-yttPYbB+dk6P4YJDbf7Yni5bDFZG78G+7hX3l2Nv6nbDYOH77ANFHULYW18g
-+SMBA65k+GiQrBCUX/p+TEnCwLMj/vzwnAAk7hh7WKaI+2amVtqPCqBWtZtD
-fyHOMy9K2NclAGvfhWXJuRicTmTpi9IE4LHFPuB0OQZVWzWC/9QVQO6jJdMl
-AnG/M9XLT54fgg1HropijfrgYoaEnnL2AOjp6kW//dEHE1MiDZL/T+gZjaij
-kvsh3VBfvuFKHwzpnCYr7fwBjtPOToELOLBpUHNgXtsPIDfrsobKvkGlmnfr
-raCfYEtxrUkcaYeo9o4rFmo8YDqa6lA0GgC3pEdLVvLA1n0ypT6fDuOZZNf3
-1Txo7I0kvybRYfbX8aOudTzYfkrNLfQwHWRedUx3NPJA0/65PyWPBupjA9ey
-mTxoYJpUPJwpBYc4hYOncB7ItqSZ+SR/hOb26wPPVvMhknbiomVXEXSpa1VZ
-rOWDz3OS1u8uRcC+J0pduIEP9n6v5jXNFsKQWqCV+x982L5vinp8UyEs8o6n
-G2nxofFdOs/QuwAMFegJg0f40HB+EnPYlAOFVgqH97rzYeZWzrJd+5MgZmkA
-j+bJh1mjhAK5rETwqONFGPuIver+iZ/LE0D7QAnD0pcPz8vOhT4ZjIECtStu
-bmQ++Kktmz+u9xgo7Prlood88K/nQ6ZsCNx6suuDb6jYXmW+Z/vvww4Z6fmP
-o8Tnwzg/vDVIIFftmb00Rpz/nWLPYHiAMOD7iYQ4cZ/zgbne8s7QuPfomHKi
-eH+idLc3+yzk/VOQRE3iE+9D5F+rYUsKstu1B30Fz5E1v9ns+ExFzi2frWT8
-hZwTbTYsW44cavouPq4S+fqCDfvW1CBrkP4hq9cjZzk8XXO4EzljB8/4zgAy
-tSH4GXfZAOFw7V92qQrIPvEeynarkI9duJTcsRZZOHQwqVYdeY/MVFzeQeSG
-47fC715Hnqix811WjtwbTRPJuw0SHm/Zp3RfbojwrbiNdFIJ8sqGjfJ99gL0
-/+jInVaeRR69+MK1O0dImOaQT5Yzwwl/bHI1ZZ9Afndwy+95p5FzldNTzG2Q
-nzKeFoVfRvY+FcKRJiFvNbhwYGEG8qb81VJdWcgb1zFqM14jr5q2OGP8Bvm3
-4mMu5BJkzg7dJKk25O7nI/ZtHcgM2Xw1KgO5cVCj4BAbuSRzfU0QH7lY8Xv4
-6SHkIvJTCxUcOeeKAps+hpze2kqlTCCnGVKcHaaQUwrMd2jNICeuXyKam0P+
-L/ipmdU=
+1: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
+kx/OwfHi1+9uEBv/GBJ/FslBhFhKWxrxo5BrflkJpP0tSu0j8aF9h3Lu3+Hg
+z/ttJyniGVIqHXfuc/BW//xTPrH943LDuGwOdks4nlh4m+SDT9SFqGekv9yW
+NCkRl+laPbv2koNTc7NM1xG7z1TrCv2XA+/fIi0glmn4JXW5jINla3TdjYhr
+kt4ZBbzlIDDbcP4hYl/HuEvnaji44K1aake8Qt0uz/MzB0phlJ8r8ddf6r1u
+jRyc5roY+BCHvJlc4txC+iusVuoCsWbEBxMHNhkfb6E/wcQdlreDbTo5wJM5
+/eHEDLmTr470csh1h7oiiXX7tL5bDnKQP542FEM8+FxIzozPwcA89Wm3iJMD
+6syNxjioco9SSSDeszMlbNcEB3sk31reJp4Q2WB1T4DC2X/qov9z44DMmKww
+hZ07clv/a/+4Xjg6eTqF0hpHjXjioJf9qotnUmi/PRwTR3w4qb4yfhaF9Oem
+QtHEGpcKrCXmUJgnERYYQSzimPorZh4FpXKGyBVitmFYzHxxcv5LjzuXiPPX
+uK2KXEhBd3SZni9xxIL970Qlyf0v5vI8iB1+6RwPl6bw02x+9knize0K4zNk
+KBi67/Cx+m/83syMC5El7RtN9poT92fyVgspUOgPVl+zkzjBo9h2chmFZWXu
+i9WIT1um//FbQeFfo09KMsQ7da7f/KVKYVxRWGc28Yjw4WpanYJL9kBEH/le
+anthf2YdhVSbe9VfidM/qkwOaVE4f0xtQQWxefxPjX5tCvKapbUJxCsD2mpO
+bqHAm129JYhYwPaNQ5cuBUeNB4WniJ+qMhIoAwoG+7tbNhHPLlETaDam8GWe
+XV41mS+DRvJ510wphEkWDT8g/tS20EnXgkKxUOfcK8RRvyc/ZxyikBecNQxi
+8fV1qd72FKrV/ximk/lKV1RarDhBId6iNc6PuNG8UITlRKH3yLVyE+KbHvdP
+G7hTWLjQqmyU5IFUtjfEfSnc1PhosZH4t44z/dafQoCH5pNpxK3VVlm+geT8
+2FO9dSR/knp2zuMGU9gTunfaCWJZJWnO00gK68WZ9UEkr5QTiwON0yk8alxS
+GUbycPrK5+sEs8i60Yiho0/c/SqzO+8hBecHTTETDBpZTVH7ZJ5S0Jr1pdeN
+WFXMTvZ7IYWRcwmqBiRvNa7OKLn6mTzvhPH0gggaYpJ/zmxpoHAiuy7Blpif
+wVs23Ehhq57y3FnELyqYNw62UvAW1005eJ3kz9QjK5UuCjNtt+zvIvVh61mT
+yYpx0t+Z9pIfwkj9PNXrbzhJ4fqLyipn4lyby+Ofpii80hy4JEKsaPhirGUa
+F26RkdP1QmnMlJHk8+ZysfeJ/PGMYNK/5ezuJUpcfGX4HdlG6lfky3OO95Zx
+8aVR/3zdRRq7Hs//prKCix0R9cnWxEVx+ty1q7kItdQfPxdI4+7JzLZdG7nw
+MTszI5XUQ9c57nVee7lYzpvmUELqq4qQiMlvYy6cTmkNbSXmjKZ+DDTlYulh
+1Yuvz5Hvj6qvCbfkopvhnP/yLI1NL9a/TbXhot95vVcqqdfTDk8WfvDiorxc
+SEuf1Pfk9Ig0pWQuHs/0rqkl6wcbA80tnBQu8ti25XLEih0tjYn3yPP/jow9
+Q9YbD+SWzxDP4sJiKrNazIFGXmK5k8BzLkx2fQrYbkvmB2N0dft7Lgw+/P7r
+eZSsFwKOF9yiuZBLq/T8uY/k6RIRM/NRLhqWJNUrEocUPemb85uLxJZcUVNj
+GrN+jS8O/cuFs3KiWNZeGou8bl7w+qcDImP2Drt201jjXKNvKtcBPUbjMrNt
+NKwttT7+s7cDWTErpcLXkXq4xPhugXEH8o9tOx6/loYt19HrpGkHZGvVI9M1
+SH64xUu/teyAQBIj6d81NJxDxx0vHe/A31+2ASxVGt75ZX9HfTrQm29woE+R
+xjUJY41vdzvgoSnsoi5O8qnJMbZktANmWz2l3AbJ/kBQaS1+d2BHmyrXcICP
+U6upT6V/OhCScSpv2Xc+ZEOPzCoX6MTXkot+rb18hGmZXK6Y1YmuaQKhm77x
+cSB20+kq2U7cYh+KfdfKx5ip6N6GnZ0wrHK5qUrW89q1uULdtzoh6LNIXfwO
+HzL3/YuSb3dC58PV97FkvyBwfqenRXIn9tB7sZDsJ6qUWNyye53oLqisFYsn
+1/cXKU/K7oT84ks2Uww+PFWtL5q9IffTknVID+Ej+6roxOvBTgRVj/VJuPAh
+v+PESOz2b7D1ku+9pcXHeq310Xnd37BNcsTq3Zsf4PBvVKeFduHN7M1fhg1+
+YEDTLFR6XTfkNw3abno4DJXvq/sFv3TjxcE/KxpmDqNS2afB43IPvsV5lHTG
+DCGqscneXLkX2QIJ+1NnD4JnURYtVNmLwPZdrWtPf8dzSwkD7TN9YGi9staP
+6EPax+A7HeL9cE1YEKfysAdj74/5i7/pxwv/H3st/LpARZeOzHf/jneR2g1j
+azsxWr9ZOmjuAPI2H2r7OUzBI06xzPf1APoWGmsKFbIg+VFx/jfrQVQyVHN9
+Mpth0ZQ9IfN3EP7lwqWrPBrAt7nnyno0BD8/m/wOkWqUHn8aOteIB0SKlDTx
+i1D02XUvex8PX9dZB7mGF+GlrqpYjhkPK5Pje3lyRciWyUg2PshDSfHzxNdG
+hUhkJr6IsONh5+ZrN90yXsHHNIw7y5eHMfmSrtUWeVDTs9oqksnD01VelIne
+Y6g8XSzc/ICHKzn13AynR1CUZVZlPuahqXBEpYnxEFIT5vt3PuPhqHtkQCmV
+hRkFu11CX/MgbiRkWRGYDq661m3hLzwwCnt85p1MAivlh/WXJh56Rix/dD6/
+Deacp8ppTB40dpj8PPU3Hp++r8zVZ/MQK9fJYMTF4XWW3PvLfTyY+MsZevtd
+R8Gi9gizAR481Z4U7JhzFS9CE80VeDx0CpttDEgNwSN7CXbZTx7izV5WaIT4
+I6OhIY0xRt5vIGjJRLo37m5jOB8f52H6kzFFpXAXJOcaq2tM8rBYPeRW5fWj
+iJcTHZma4oH7/MH//4f8D45S2iw=
       "]]}}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
@@ -196,16 +245,16 @@ L/ipmdU=
      PointBox[{0, 0}], 
      PointBox[
       NCache[{
-        Rational[1, 5], 0}, {0.2, 0}]], 
+        Rational[1, 5], 0.784}, {0.2, 0.784}]], 
      PointBox[
       NCache[{
-        Rational[2, 5], 0}, {0.4, 0}]], 
+        Rational[2, 5], 1.176}, {0.4, 1.176}]], 
      PointBox[
       NCache[{
-        Rational[3, 5], 1}, {0.6, 1}]], 
+        Rational[3, 5], 1.1760000000000002`}, {0.6, 1.1760000000000002`}]], 
      PointBox[
       NCache[{
-        Rational[4, 5], 0}, {0.8, 0}]], 
+        Rational[4, 5], 0.7839999999999994}, {0.8, 0.7839999999999994}]], 
      PointBox[{1, 0}]}},
   Frame->{{False, False}, {False, False}},
   FrameLabel->{{None, None}, {None, None}},
@@ -217,7 +266,7 @@ L/ipmdU=
   Method->{
    "DefaultBoundaryStyle" -> Automatic, "DefaultMeshStyle" -> 
     AbsolutePointSize[6], "ScalingFunctions" -> None},
-  PlotRange->{{0, 1}, {0., 0.9997572035770971}},
+  PlotRange->{{0, 1}, {0., 1.2249999709898396`}},
   PlotRangeClipping->True,
   PlotRangePadding->{{
      Scaled[0.02], 
@@ -230,20 +279,24 @@ L/ipmdU=
    3.686997006382055*^9, {3.6869971704825687`*^9, 3.686997180585101*^9}, 
    3.6869972380385513`*^9, 3.686997575906802*^9, 3.6869976104918776`*^9, 
    3.686997640738807*^9, {3.686997673365405*^9, 3.686997692460072*^9}, {
-   3.6869980755814962`*^9, 3.6869980931007752`*^9}, 3.6869981324108944`*^9}],
+   3.6869980755814962`*^9, 3.6869980931007752`*^9}, 3.6869981324108944`*^9, 
+   3.6870346045526934`*^9, 3.687034858042923*^9, 3.6870349919214115`*^9, 
+   3.6870353027390275`*^9, 3.687035384611809*^9, 3.6870354149970922`*^9, 
+   3.6870355516773286`*^9, 3.687035663014861*^9, {3.687035712004592*^9, 
+   3.6870357238611593`*^9}}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`i4824$$ = 18, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`i43$$ = 33, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {
-    "\"min\"" :> {$CellContext`i4824$$ = 1}, 
-     "\"max\"" :> {$CellContext`i4824$$ = 51}}, Typeset`bookmarkMode$$ = 
-    "Menu", Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"min\"" :> {$CellContext`i43$$ = 1}, 
+     "\"max\"" :> {$CellContext`i43$$ = 51}}, Typeset`bookmarkMode$$ = "Menu",
+     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`i4824$$], 1, ""}, 1, 51, 1}}, Typeset`size$$ = 
+       Hold[$CellContext`i43$$], 1, ""}, 1, 51, 1}}, Typeset`size$$ = 
     Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`i4824$17999$$ = 0}, 
+    Typeset`skipInitDone$$ = True, $CellContext`i43$4175$$ = 0}, 
     PaneBox[
      PanelBox[
       DynamicWrapperBox[GridBox[{
@@ -253,11 +306,11 @@ Cell[BoxData[
             TagBox[
              StyleBox[GridBox[{
                 {"\<\"\"\>", 
-                 AnimatorBox[Dynamic[$CellContext`i4824$$], {1, 51, 1},
+                 AnimatorBox[Dynamic[$CellContext`i43$$], {1, 51, 1},
                   AnimationRate->Automatic,
-                  AnimationRunTime->16.69651699066162,
+                  AnimationRunTime->578.1417722702026,
                   AnimationRunning->False,
-                  AnimationTimeIndex->1.696516990661621,
+                  AnimationTimeIndex->3.1417722702026367`,
                   
                   AppearanceElements->{
                    "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons",
@@ -292,375 +345,444 @@ Cell[BoxData[
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 2->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.09604000000000008}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 3->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.18816000000000016`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 4->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.2763600000000002}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 5->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.36064000000000024`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 6->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.4410000000000003}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 7->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.5174400000000001}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 8->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.5899600000000003}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 9->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.6585600000000001}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 10->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.72324}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 11->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.7840000000000001}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 12->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.8408400000000001}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 13->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.89376}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 14->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.9427600000000002}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 15->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.9878399999999999}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 16->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.029}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 17->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.06624}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 18->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.09956}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 19->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.12896}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 20->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.15444}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 21->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.176}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 22->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.09999999999999983}], 
+                  PointBox[{0, 1.1936399999999998`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 23->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.19999999999999993`}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.20736}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 24->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.30000000000000004`}], 
+                  PointBox[{0, 1.2171600000000002`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 25->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.39999999999999986`}], 
+                  PointBox[{0, 1.2230400000000001`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 26->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.5}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.225}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 27->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.6000000000000001}], 
+                  PointBox[{0, 1.2230400000000001`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 28->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.7000000000000002}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.21716}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 29->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.8000000000000003}], 
+                  PointBox[{0, 1.2073600000000002`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 30->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.8999999999999998}], 
+                  PointBox[{0, 1.1936400000000003`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 31->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 1.1760000000000002`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 32->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.8999999999999999}], 
+                  PointBox[{0, 1.1544400000000004`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 33->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.7999999999999998}], 
+                  PointBox[{0, 1.1289600000000004`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 34->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.6999999999999998}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.09956}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 35->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.5999999999999998}], 
+                  PointBox[{0, 1.0662399999999999`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 36->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.4999999999999997}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 1.029}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 37->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.4000000000000002}], 
+                  PointBox[{0, 0.9878399999999998}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 38->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.30000000000000016`}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.94276}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 39->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.2000000000000001}], 
+                  PointBox[{0, 0.8937599999999999}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 40->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], 
-                  PointBox[{0, 0.10000000000000005`}], 
+                  PointBox[{0, 0.8408399999999996}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 41->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.7839999999999994}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 42->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.7232399999999995}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 43->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.6585599999999996}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 44->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.5899599999999996}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 45->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.5174399999999995}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 46->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.44099999999999945`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 47->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.3606399999999995}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 48->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.2763599999999994}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 49->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.18815999999999986`}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 50->
                 GraphicsBox[
-                 {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
+                 {RGBColor[1, 0, 0], PointSize[0.05], 
+                  PointBox[{0, 0.09603999999999992}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
                  PlotRange->1.5], 51->
                 GraphicsBox[
                  {RGBColor[1, 0, 0], PointSize[0.05], PointBox[{0, 0.}], 
                   {RGBColor[0, 0, 1], 
                    TagBox[ConicHullRegionBox[{0, 0}, {{1, 0}}],
                     "InfiniteLine"]}, 
-                  {GrayLevel[0], InsetBox["3.039999999999985`", {-0.5, 0.5}]}},
-                 PlotRange->1.5]}, Dynamic[$CellContext`i4824$$],
+                  {GrayLevel[0], InsetBox[
+                    RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
+                 PlotRange->1.5]}, Dynamic[$CellContext`i43$$],
                 Alignment->Automatic,
                 ImageSize->All,
                 TransitionDirection->Horizontal,
@@ -708,8 +830,8 @@ Cell[BoxData[
            CurrentValue["PreviousFormatTime"], 
            CurrentValue["CurrentFormatTime"]]& , {
            
-           Manipulate`Dump`controllerLink[{$CellContext`i4824$$, \
-$CellContext`i4824$17999$$}, "X1", 
+           Manipulate`Dump`controllerLink[{$CellContext`i43$$, \
+$CellContext`i43$4175$$}, "X1", 
             If["DefaultAbsolute", True, "JB1"], False, {1, 51, 1}, 51, 1.]}], 
          CurrentValue[{
           "ControllerData", {
@@ -733,8 +855,17 @@ $CellContext`i4824$17999$$}, "X1",
    3.686997006382055*^9, {3.6869971704825687`*^9, 3.686997180585101*^9}, 
    3.6869972380385513`*^9, 3.686997575906802*^9, 3.6869976104918776`*^9, 
    3.686997640738807*^9, {3.686997673365405*^9, 3.686997692460072*^9}, {
-   3.6869980755814962`*^9, 3.6869980931007752`*^9}, 3.6869981325635147`*^9}]
+   3.6869980755814962`*^9, 3.6869980931007752`*^9}, 3.6869981324108944`*^9, 
+   3.6870346045526934`*^9, 3.687034858042923*^9, 3.6870349919214115`*^9, 
+   3.6870353027390275`*^9, 3.687035384611809*^9, 3.6870354149970922`*^9, 
+   3.6870355516773286`*^9, 3.687035663014861*^9, {3.687035712004592*^9, 
+   3.687035723999221*^9}}]
 }, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.687036026731655*^9, 3.6870360271105423`*^9}}],
 
 Cell[CellGroupData[{
 
@@ -814,8 +945,8 @@ Cell[BoxData[
  CellChangeTimes->{3.6869972955111685`*^9}]
 }, Open  ]]
 },
-WindowSize->{759, 553},
-WindowMargins->{{Automatic, 249}, {Automatic, 18}},
+WindowSize->{1280, 637},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (February 25, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -830,26 +961,28 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 107, 1, 30, "Text"],
 Cell[CellGroupData[{
-Cell[580, 22, 3815, 109, 314, "Input"],
-Cell[4398, 133, 4769, 99, 236, "Output"],
-Cell[9170, 234, 24331, 501, 454, "Output"]
+Cell[690, 25, 4288, 114, 266, "Input"],
+Cell[4981, 141, 7627, 144, 236, "Output"],
+Cell[12611, 287, 27148, 574, 454, "Output"]
+}, Open  ]],
+Cell[39774, 864, 174, 3, 92, "Input"],
+Cell[CellGroupData[{
+Cell[39973, 871, 223, 5, 46, "Input"],
+Cell[40199, 878, 126, 2, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33538, 740, 223, 5, 46, "Input"],
-Cell[33764, 747, 126, 2, 31, "Output"]
+Cell[40362, 885, 123, 2, 31, "Input"],
+Cell[40488, 889, 72, 1, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33927, 754, 123, 2, 31, "Input"],
-Cell[34053, 758, 72, 1, 31, "Output"]
+Cell[40597, 895, 486, 13, 46, "Input"],
+Cell[41086, 910, 239, 6, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[34162, 764, 486, 13, 46, "Input"],
-Cell[34651, 779, 239, 6, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[34927, 790, 587, 19, 46, "Input"],
-Cell[35517, 811, 106, 2, 31, "Output"]
+Cell[41362, 921, 587, 19, 46, "Input"],
+Cell[41952, 942, 106, 2, 31, "Output"]
 }, Open  ]]
 }
 ]

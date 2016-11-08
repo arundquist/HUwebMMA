@@ -57,7 +57,9 @@ coords = Join[{{0, 0}},
 Table[{i/(Length[pts] + 1), pts[[i]]}, {i, Length[pts]}], {{1, 0}}];
 int = Interpolation[coords, Method -> "Spline",
 InterpolationOrder -> $$smooth];
-integral = NIntegrate[1/2 int'[t]^2 - 9.8 int[t], {t, 0, 1}]]
+integral = NIntegrate[1/2 int'[t]^2 - 9.8 int[t], {t, 0, 1}];
+MSPShow[Plot[int[t], {t, 0, 1},
+ Epilog -> {PointSize -> 0.05, Red, Point /@ coords}]]]
 </msp:evaluate>
 
 </div>
