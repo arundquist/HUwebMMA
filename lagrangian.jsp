@@ -68,7 +68,7 @@ MSPShow[Plot[int[t], {t, 0, 1},
  Epilog -> {PointSize -> 0.05, Red, Point /@ coords}]]]
 </msp:evaluate>
 <msp:evaluate>
-  If[animation, MSPShowAnimation[frames]]
+  If[$$animation, MSPShowAnimation[frames]]
 </msp:evaluate>
 
 </div>
