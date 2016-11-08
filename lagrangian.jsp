@@ -53,7 +53,7 @@ enter the locations of the ball at t=0.2, 0.4, 0.6, and 0.8 seconds.<br/>
 <div class="section">
 
 <msp:evaluate>
-    MSPBlock[{$$a, $$b, $$c, $$d, $$smooth,$$animation},
+    MSPBlock[{$$a, $$b, $$c, $$d, $$smooth},
 pts={$$a, $$b, $$c, $$d};
 coords = Join[{{0, 0}},
 Table[{i/(Length[pts] + 1), pts[[i]]}, {i, Length[pts]}], {{1, 0}}];
@@ -68,7 +68,7 @@ MSPShow[Plot[int[t], {t, 0, 1},
  Epilog -> {PointSize -> 0.05, Red, Point /@ coords}]]]
 </msp:evaluate>
 <msp:evaluate>
-  If[$$animation, MSPShowAnimation[frames]]
+  If[$$animation=="on", MSPShowAnimation[frames]]
 </msp:evaluate>
 
 </div>
