@@ -20,6 +20,14 @@
 
 <div class="section">
 <h1>What's the smallest?</h1>
+<p>
+Try to find a trajectory for the ball that starts and ends at zero.
+You can adjust the height of the ball at 4 time points between 0 and 1 second.
+What you're trying to minimize is:
+
+$$\int_0^1\text{KE}(t)-\text{PE}(t)\,dt$$
+
+</p>
 </div>
 
 <div class="section">
@@ -68,11 +76,7 @@ MSPShow[Plot[int[t], {t, 0, 1},
 
 </div>
 
-<div class='section'>
-  This shows a phase plane plot for the following differential equations:
-  $$y_1'(t)=a y_1(t)+b y_2(t)$$
-  $$y_2'(t)=c y_1(t)+d y_2(t)$$
-</div>
+
 
 
 </div>
