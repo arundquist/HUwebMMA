@@ -40,7 +40,7 @@ enter the locations of the ball at t=0.2, 0.4, 0.6, and 0.8 seconds.<br/>
        <msp:evaluate> If[$$smooth === "3", "checked"]</msp:evaluate>
        />smooth
 <br/>
-<input type="checkbox" name="animation"/>
+Animation?<input type="checkbox" name="animation"/>
 </div>
 
 <div>
@@ -68,7 +68,7 @@ MSPShow[Plot[int[t], {t, 0, 1},
  Epilog -> {PointSize -> 0.05, Red, Point /@ coords}]]]
 </msp:evaluate>
 <msp:evaluate>
-  If[$$animation=="on", MSPShowAnimation[frames]]
+  If[MSPValueQ[$$animation], MSPShowAnimation[frames],integral]
 </msp:evaluate>
 
 </div>
