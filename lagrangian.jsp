@@ -34,11 +34,13 @@ enter the locations of the ball at t=0.2, 0.4, 0.6, and 0.8 seconds.<br/>
 <br/>
 <!-- Radio Buttons for colors -->
 <input type="radio" name="smooth" value="1"
-       <msp:evaluate> If[($$smooth === "1")||!MSPValueQ($$smooth), "checked"]</msp:evaluate>
+       <msp:evaluate> If[$$smooth === "1", "checked"]</msp:evaluate>
        />not smooth
 <input type="radio" name="smooth" value="3"
        <msp:evaluate> If[$$smooth === "3", "checked"]</msp:evaluate>
        />smooth
+<br/>
+<input type="checkbox" name="animation"/>
 </div>
 
 <div>
@@ -51,7 +53,7 @@ enter the locations of the ball at t=0.2, 0.4, 0.6, and 0.8 seconds.<br/>
 <div class="section">
 
 <msp:evaluate>
-    MSPBlock[{$$a, $$b, $$c, $$d, $$smooth},
+    MSPBlock[{$$a, $$b, $$c, $$d, $$smooth,$$animation},
 pts={$$a, $$b, $$c, $$d};
 coords = Join[{{0, 0}},
 Table[{i/(Length[pts] + 1), pts[[i]]}, {i, Length[pts]}], {{1, 0}}];
@@ -66,7 +68,7 @@ MSPShow[Plot[int[t], {t, 0, 1},
  Epilog -> {PointSize -> 0.05, Red, Point /@ coords}]]]
 </msp:evaluate>
 <msp:evaluate>
-MSPShowAnimation[frames]
+  If[animation, MSPShowAnimation[frames]]
 </msp:evaluate>
 
 </div>
