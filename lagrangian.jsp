@@ -34,7 +34,7 @@ enter the locations of the ball at t=0.2, 0.4, 0.6, and 0.8 seconds.<br/>
 <br/>
 <!-- Radio Buttons for colors -->
 <input type="radio" name="smooth" value="1"
-       <msp:evaluate> If[$$smooth === "1", "checked"]</msp:evaluate>
+       <msp:evaluate> If[($$smooth === "1")||!MSPValueQ($$smooth), "checked"]</msp:evaluate>
        />not smooth
 <input type="radio" name="smooth" value="3"
        <msp:evaluate> If[$$smooth === "3", "checked"]</msp:evaluate>
