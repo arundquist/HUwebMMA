@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     42964,        982]
-NotebookOptionsPosition[     42074,        947]
-NotebookOutlinePosition[     42421,        962]
-CellTagsIndexPosition[     42378,        959]
+NotebookDataLength[     43000,        982]
+NotebookOptionsPosition[     42109,        947]
+NotebookOutlinePosition[     42457,        962]
+CellTagsIndexPosition[     42414,        959]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -283,20 +283,20 @@ iJcTHZma4oH7/MH//4f8D45S2iw=
    3.6870346045526934`*^9, 3.687034858042923*^9, 3.6870349919214115`*^9, 
    3.6870353027390275`*^9, 3.687035384611809*^9, 3.6870354149970922`*^9, 
    3.6870355516773286`*^9, 3.687035663014861*^9, {3.687035712004592*^9, 
-   3.6870357238611593`*^9}}],
+   3.6870357238611593`*^9}, 3.6876293374355187`*^9}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`i43$$ = 33, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`i6$$ = 15, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {
-    "\"min\"" :> {$CellContext`i43$$ = 1}, 
-     "\"max\"" :> {$CellContext`i43$$ = 51}}, Typeset`bookmarkMode$$ = "Menu",
-     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"min\"" :> {$CellContext`i6$$ = 1}, 
+     "\"max\"" :> {$CellContext`i6$$ = 51}}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`i43$$], 1, ""}, 1, 51, 1}}, Typeset`size$$ = 
+       Hold[$CellContext`i6$$], 1, ""}, 1, 51, 1}}, Typeset`size$$ = 
     Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`i43$4175$$ = 0}, 
+    Typeset`skipInitDone$$ = True, $CellContext`i6$539$$ = 0}, 
     PaneBox[
      PanelBox[
       DynamicWrapperBox[GridBox[{
@@ -306,11 +306,11 @@ Cell[BoxData[
             TagBox[
              StyleBox[GridBox[{
                 {"\<\"\"\>", 
-                 AnimatorBox[Dynamic[$CellContext`i43$$], {1, 51, 1},
+                 AnimatorBox[Dynamic[$CellContext`i6$$], {1, 51, 1},
                   AnimationRate->Automatic,
-                  AnimationRunTime->578.1417722702026,
+                  AnimationRunTime->6.412672519683838,
                   AnimationRunning->False,
-                  AnimationTimeIndex->3.1417722702026367`,
+                  AnimationTimeIndex->1.412672519683838,
                   
                   AppearanceElements->{
                    "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons",
@@ -782,7 +782,7 @@ Cell[BoxData[
                     "InfiniteLine"]}, 
                   {GrayLevel[0], InsetBox[
                     RowBox[{"-", "4.0016666666666705`"}], {-0.5, 0.5}]}},
-                 PlotRange->1.5]}, Dynamic[$CellContext`i43$$],
+                 PlotRange->1.5]}, Dynamic[$CellContext`i6$$],
                 Alignment->Automatic,
                 ImageSize->All,
                 TransitionDirection->Horizontal,
@@ -830,8 +830,8 @@ Cell[BoxData[
            CurrentValue["PreviousFormatTime"], 
            CurrentValue["CurrentFormatTime"]]& , {
            
-           Manipulate`Dump`controllerLink[{$CellContext`i43$$, \
-$CellContext`i43$4175$$}, "X1", 
+           Manipulate`Dump`controllerLink[{$CellContext`i6$$, \
+$CellContext`i6$539$$}, "X1", 
             If["DefaultAbsolute", True, "JB1"], False, {1, 51, 1}, 51, 1.]}], 
          CurrentValue[{
           "ControllerData", {
@@ -859,7 +859,7 @@ $CellContext`i43$4175$$}, "X1",
    3.6870346045526934`*^9, 3.687034858042923*^9, 3.6870349919214115`*^9, 
    3.6870353027390275`*^9, 3.687035384611809*^9, 3.6870354149970922`*^9, 
    3.6870355516773286`*^9, 3.687035663014861*^9, {3.687035712004592*^9, 
-   3.687035723999221*^9}}]
+   3.6870357238611593`*^9}, 3.687629340871542*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -945,8 +945,8 @@ Cell[BoxData[
  CellChangeTimes->{3.6869972955111685`*^9}]
 }, Open  ]]
 },
-WindowSize->{1280, 637},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowSize->{1264, 637},
+WindowMargins->{{1912, Automatic}, {Automatic, 0}},
 FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (February 25, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -964,25 +964,25 @@ Notebook[{
 Cell[558, 20, 107, 1, 30, "Text"],
 Cell[CellGroupData[{
 Cell[690, 25, 4288, 114, 266, "Input"],
-Cell[4981, 141, 7627, 144, 236, "Output"],
-Cell[12611, 287, 27148, 574, 454, "Output"]
+Cell[4981, 141, 7651, 144, 236, "Output"],
+Cell[12635, 287, 27159, 574, 454, "Output"]
 }, Open  ]],
-Cell[39774, 864, 174, 3, 92, "Input"],
+Cell[39809, 864, 174, 3, 92, "Input"],
 Cell[CellGroupData[{
-Cell[39973, 871, 223, 5, 46, "Input"],
-Cell[40199, 878, 126, 2, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[40362, 885, 123, 2, 31, "Input"],
-Cell[40488, 889, 72, 1, 31, "Output"]
+Cell[40008, 871, 223, 5, 46, "Input"],
+Cell[40234, 878, 126, 2, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[40597, 895, 486, 13, 46, "Input"],
-Cell[41086, 910, 239, 6, 31, "Output"]
+Cell[40397, 885, 123, 2, 31, "Input"],
+Cell[40523, 889, 72, 1, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[41362, 921, 587, 19, 46, "Input"],
-Cell[41952, 942, 106, 2, 31, "Output"]
+Cell[40632, 895, 486, 13, 46, "Input"],
+Cell[41121, 910, 239, 6, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41397, 921, 587, 19, 46, "Input"],
+Cell[41987, 942, 106, 2, 31, "Output"]
 }, Open  ]]
 }
 ]
