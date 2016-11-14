@@ -26,7 +26,7 @@
 
 <form action="passwordcrack.jsp" method="post">
 <div>
-<input type="text" name="a" size="2" value="${msp:evaluate('MSPValue[$$a,  "0"]')}"/>
+<input type="text" name="a" size="11" value="${msp:evaluate('MSPValue[$$a,  "0"]')}"/>
 </div>
 
 <div>
@@ -40,7 +40,7 @@
 
 <msp:evaluate>
     MSPBlock[{$$a},
-        DamerauLevenshteinDistance[ToString[a], "7109595632"]]
+        DamerauLevenshteinDistance[ToString[$$a], "7109595632"]]
 </msp:evaluate>
 
 </div>
