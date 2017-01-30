@@ -789,6 +789,7 @@
  "WSTD 3850" \[DirectedEdge] "WSTD 1010",
  "WSTD 5900" \[DirectedEdge] "WSTD 1010"};
  g=Graph[allrules];
+ allcourses = VertexList[g];
  panelLabel[lbl_] := Panel[lbl, FrameMargins -> 0];
 ef[pts_List, e_] :=
  Block[{s = 0.015}, {Arrowheads[{{Automatic, 0.5}}], Arrow[pts]}];
