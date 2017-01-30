@@ -795,7 +795,7 @@ ef[pts_List, e_] :=
  Block[{s = 0.015}, {Arrowheads[{{Automatic, 0.5}}], Arrow[pts]}];
  MSPShow[NeighborhoodGraph[g, $$course,
  VertexLabels -> Placed["Name", Center, panelLabel],
- EdgeShapeFunction -> ef]]
+ EdgeShapeFunction -> ef, ImageSize->72 8]]
 </msp:evaluate>
 
 
