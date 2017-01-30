@@ -7,7 +7,9 @@
 </head>
 
 <body>
-
+<div>
+  Courses that <msp:evaluate>$$course</msp:evaluate> serves as a prerequisite for:
+  <p>
 <msp:evaluate>
   allrules={"ACCT 1320" \[DirectedEdge] "ACCT 1310",
  "ACCT 3010" \[DirectedEdge] "ACCT 1310",
@@ -796,8 +798,18 @@ ef[pts_List, e_] :=
  (*MSPShow[NeighborhoodGraph[g, $$course,
  VertexLabels -> Placed["Name", Center, panelLabel],
  EdgeShapeFunction -> ef, ImageSize->72 8]]*)
- VertexInComponent[g, $$course, 1]
+ VertexInComponent[g, $$course, 1][[2;;-1]]
 </msp:evaluate>
+</p>
+</div>
+<div>
+  Courses that are connected at all through a prerequisite pipeline to this course:
+  <p>
+    <msp:evaluate>
+      VertexInComponent[g,$$course][[2;;-1]]
+    </msp:evaluate>
+  </p>
+</div>
 
 
 </body>
