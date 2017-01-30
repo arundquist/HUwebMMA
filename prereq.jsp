@@ -810,6 +810,13 @@ ef[pts_List, e_] :=
     </msp:evaluate>
   </p>
 </div>
+<div>
+  <msp:evaluate>
+    MSPShow[NeighborhoodGraph[g, $$course,2
+    VertexLabels -> Placed["Name", Center, panelLabel],
+    EdgeShapeFunction -> ef, ImageSize->72 8]]
+  </msp:evaluate>
+</div>
 
 
 </body>
