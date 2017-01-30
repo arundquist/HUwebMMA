@@ -814,7 +814,7 @@ ef[pts_List, e_] :=
   <msp:evaluate>
     MSPShow[NeighborhoodGraph[g, $$course,2
     VertexLabels -> Placed["Name", Center, panelLabel],
-    EdgeShapeFunction -> ef, ImageSize->72 8]]
+    EdgeShapeFunction -> ef, ImageSize->72 8,GraphLayout -> "RadialEmbedding"]]
   </msp:evaluate>
 </div>
 
