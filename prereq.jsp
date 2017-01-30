@@ -793,7 +793,7 @@
  panelLabel[lbl_] := Panel[lbl, FrameMargins -> 0];
 ef[pts_List, e_] :=
  Block[{s = 0.015}, {Arrowheads[{{Automatic, 0.5}}], Arrow[pts]}];
- MSPShow[NeighborhoodGraph[g, allcourses[[1]],
+ MSPShow[NeighborhoodGraph[g, $$course,
  VertexLabels -> Placed["Name", Center, panelLabel],
  EdgeShapeFunction -> ef]]
 </msp:evaluate>
