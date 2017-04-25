@@ -3,13 +3,12 @@
 <html>
 
 <head>
-<title>Manipulate Example: Slider, Checkbox, and Plot</title>
+<title>Fall 2016 enrollments</title>
 </head>
 
 <body>
 
-<h1>
-Slider, Checkbox, and Plot</h1>
+<p>choose a course and it displays the enrollment versus date from May 16 through September 16</p>
 
 <msp:evaluate>
 Needs["MSPManipulate`"]
