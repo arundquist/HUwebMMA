@@ -2284,9 +2284,7 @@ data={{"term", "pot", "crn", "subj", "no", "sect", "hamline plan",
   dates = data[[1, 14 ;; -1]];
   manlabels =
   Table[j -> data[[j, 4]] <> data[[j, 5]], {j, 2, Length[data]}];
-  Manipulate[
- DateListPlot[Transpose[{dates, data[[i, 14 ;; -1]]}]], {{i, 2},
-  manlabels, ControlType -> PopupMenu}]
+  
 MSPManipulate[ DateListPlot[Transpose[{dates, data[[i, 14 ;; -1]]}]], {{i, 2},
  manlabels, ControlType -> PopupMenu}]
 </msp:evaluate>
