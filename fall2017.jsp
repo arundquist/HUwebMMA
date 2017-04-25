@@ -2281,7 +2281,14 @@ data={{"term", "pot", "crn", "subj", "no", "sect", "hamline plan",
    19., 19., 19., 19., 19., 20., 20., 20., 20., 20., 20., 20., 22.,
   22., 22., 22., 22., 22., 22., 22., 22., 22., 22., 22., 22., 22.,
   22.}};
-MSPManipulate[ Plot[ Cos[var+x], {x,0,2Pi}, Frame -> frame], {var, 0,20}, {frame, {True,False}}, OutputSize->{621, 384}]
+  dates = data[[1, 14 ;; -1]];
+  manlabels =
+  Table[j -> data[[j, 4]] <> data[[j, 5]], {j, 2, Length[data]}];
+  Manipulate[
+ DateListPlot[Transpose[{dates, data[[i, 14 ;; -1]]}]], {{i, 2},
+  manlabels, ControlType -> PopupMenu}]
+MSPManipulate[ DateListPlot[Transpose[{dates, data[[i, 14 ;; -1]]}]], {{i, 2},
+ manlabels, ControlType -> PopupMenu}]
 </msp:evaluate>
 
 </body>
