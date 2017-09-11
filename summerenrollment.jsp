@@ -182,6 +182,8 @@ all=<|"ANTH" -> {{"201115", "1160", 4., 7.}, {"201115", "1200", 4., 8.}, {"20111
  "HSCI", "IJRN", "LGST", "MATH", "MGMT", "MODL", "MUS", "PHED", "PHIL", "PHYS", "PSCI", "PSY", "REL", "SOC", "SOCJ",
  "SPAN", "THTR", "WRIT"};
 
+ terms={"201115", "201215", "201315", "201415", "201515", "201615"};
+
 MSPManipulate[ depttable[dept], {dept, depts}]
 </msp:evaluate>
 
