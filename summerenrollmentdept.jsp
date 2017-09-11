@@ -189,7 +189,7 @@ all=<|"ANTH" -> {{"201115", "1160", 4., 7.}, {"201115", "1200", 4., 8.}, {"20111
 
  terms={"201115", "201215", "201315", "201415", "201515", "201615"};
  dept = MSPValue[$$dept, "PHYS"];
-depttable["PHYS"]
+depttable[dept]
 </msp:evaluate>
 
 </body>
