@@ -7,8 +7,13 @@
 </head>
 
 <body>
+  <p>
+    Once you choose a department, it displays all 4-credit sections of any course
+    taught in that department from the summer of 2012 through 2017. Each number displayed
+    is the enrollment in a particular section. If there were multiple sections of the same
+    course, the numbers are stacked on top of each other.
+  </p>
 
-<p>Choose a department to see it's table</p>
 
 <msp:evaluate>
 Needs["MSPManipulate`"]
